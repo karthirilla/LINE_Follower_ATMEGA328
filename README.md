@@ -13,9 +13,6 @@ Line Follower Robot using Atmega238PU
 
 
 
-**Realtime Communication:**
-
-![socketio](https://img.shields.io/badge/Socket.io-010101?&style=for-the-badge&logo=Socket.io&logoColor=white)
 
 
 
