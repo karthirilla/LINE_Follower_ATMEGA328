@@ -13,9 +13,6 @@ Line Follower Robot using Atmega238PU
 
 
 
-
-
-
 ## 🚀 Features
 - Login/Signup User Account
 - Login using Email/Username
