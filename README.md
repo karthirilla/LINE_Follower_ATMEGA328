@@ -6,8 +6,8 @@ Line Follower Robot using Atmega238PU
 ## 🖥️ Tech Stack
 **Softwares:**
 
-![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)&nbsp;
-![Code Vision AVR](https://img.shields.io/badge/Code%20Vision%20AVR-CA4245?style=for-the-badge&logo=Code Vision AVR&logoColor=white)&nbsp;
+![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-20232A?style=for-the-badge&logo=Arduino&logoColor=61DAFB)&nbsp;
+![Code Vision AVR](https://img.shields.io/badge/Code%20Vision%20AVR-CA4245?style=for-the-badge&logo=CodeVisionAVR&logoColor=white)&nbsp;
 ![Diptrace](https://img.shields.io/badge/Diptrace-593D88?style=for-the-badge&logo=Diptrace&logoColor=white)&nbsp;
 ![AVRDUDESS](https://img.shields.io/badge/AVRDUDESS-38B2AC?style=for-the-badge&logo=AVRDUDESS&logoColor=white)&nbsp;
 
