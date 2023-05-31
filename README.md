@@ -14,30 +14,22 @@ Line Follower Robot using Atmega238PU
 
 
 ## 🚀 Features
-- Login/Signup User Account
-- Login using Email/Username
-- Update Profile/Password User Account
-- Reset Password Mail using Sendgrid
-- Infinite Scroll Posts
-- Suggested Users
-- Search User Accounts by Name/Username
-- Follow/Unfollow Users
-- Like/Unlike Posts (Double Tap Like)
-- Comment on Post
-- Save/Unsave Post
-- Visit User Profiles
-- Share New Post
-- Skeleton Loaders
-- Delete Own Posts
-- Search Users to Chat
-- Add New Chat
-- Message Users
-- Typing | Online User Status
-- See Followers/Following of Users
-- Post Liked by Users
-- Emoji Enabled (Emoji Mart)
+- Auto Calibration
+- Advanced Path Planning
+- 14 Sensor Photodioda
+- Layar Display
+- Pilih Varian Motor DC 24mm kecepatan 13,000 rpm
+- Driver Motor Mosfet
+- Dual Memory Eeprom External 256Kbit
+- 31 Memory Track
+- Sistem Control PID
+- Copy/Insert/Mirror/Delete Planning antar memory
+- Copy memory
+- Auto/Manual Mirror Memory
+- Plug and Play Mode Wireless Manual Control (Bluetooth)
 
-## Sneak Peek of Home Page 🙈 :
+
+## Sneak Peek of Line Follower 🙈 :
 ![home](https://user-images.githubusercontent.com/64949957/159116089-cfc2b4c5-dc7d-4d4b-a0c8-668f89ce5412.png)
 
 <table>
@@ -57,7 +49,7 @@ If you want to contact me, you can reach me through below handles.
 
 [![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jigar-sable)
 
-© 2022 Jigar Sable
+© 2022 Karthi C
 
 
 [![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
