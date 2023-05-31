@@ -30,7 +30,7 @@ Line Follower Robot using Atmega238PU
 
 
 ## Sneak Peek of Line Follower 🙈 :
-![home](Screenshot (4).png)
+![home](https://github.com/karthirilla/LINE_Follower_ATMEGA328/blob/main/Screenshot%20(4).png)
 
 <table>
   <tr>
