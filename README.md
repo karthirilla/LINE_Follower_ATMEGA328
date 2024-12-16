@@ -1,55 +1,122 @@
-# Line Follower Robot
-Line Follower Robot using Atmega238PU
+# Line Follower Robot with ATmega328
 
-[Visit Now](https://instagramernstack.herokuapp.com/) 🚀
+The **Line Follower Robot with ATmega328** is a high-performance, feature-rich robot designed to autonomously follow a line path with precision. Equipped with advanced sensors, motor drivers, and intelligent control algorithms, this robot is ideal for educational, research, and competition purposes.
 
-## 🖥️ Tech Stack
-**Softwares:**
+Built around the ATmega328PU microcontroller, it integrates several cutting-edge features such as auto-calibration, path planning, and PID control. The system is powered by a 12V inbuilt rechargeable battery and offers an intuitive interface via a 16x2 LCD display for data monitoring and setting adjustments.
 
-![Arduino IDE](https://img.shields.io/badge/Arduino%20IDE-20232A?style=for-the-badge&logo=Arduino&logoColor=61DAFB)&nbsp;
-![Code Vision AVR](https://img.shields.io/badge/Code%20Vision%20AVR-CA4245?style=for-the-badge&logo=CodeVisionAVR&logoColor=white)&nbsp;
-![Diptrace](https://img.shields.io/badge/Diptrace-593D88?style=for-the-badge&logo=Diptrace&logoColor=white)&nbsp;
-![AVRDUDESS](https://img.shields.io/badge/AVRDUDESS-38B2AC?style=for-the-badge&logo=AVRDUDESS&logoColor=white)&nbsp;
+## Features
 
+### 1. Hardware
+- **Microcontroller**: ATmega328PU
+- **Sensors**: 14 Photodiode/IR-based sensors for precise black-and-white line detection
+- **Motor Driver**: L293D Motor Driver IC
+- **Motors**: DC Motor (24mm, 13,000 RPM)
+- **Battery**: Inbuilt 12V rechargeable battery for autonomous operation
+- **Display**: 16x2 LCD for displaying data and settings
+- **Motor Driver MOSFET**: High-efficiency motor control
 
+### 2. Software Features
+- **Auto Calibration**: Automatically adjusts the sensors for varying lighting and track conditions
+- **Advanced Path Planning**: Optimized for complex curves and intersections
+- **Memory Management**: 
+  - Dual External EEPROM (256 Kbit each) for memory storage
+  - 31 Memory Slots for storing track plans
+  - Features to Copy, Insert, Mirror, Delete between memory tracks
+  - Auto/Manual Mirror Memory for creating mirrored paths easily
+- **Control System**:
+  - PID Control for smooth and precise movements
+  - Plug and Play Mode: Supports Wireless Manual Control via Bluetooth
 
-## 🚀 Features
-- Auto Calibration
-- Advanced Path Planning
-- 14 Sensor Photodioda
-- Layar Display
-- Pilih Varian Motor DC 24mm kecepatan 13,000 rpm
-- Driver Motor Mosfet
-- Dual Memory Eeprom External 256Kbit
-- 31 Memory Track
-- Sistem Control PID
-- Copy/Insert/Mirror/Delete Planning antar memory
-- Copy memory
-- Auto/Manual Mirror Memory
-- Plug and Play Mode Wireless Manual Control (Bluetooth)
+## System Architecture
 
+### Components
+| Component        | Description                                                                 |
+|------------------|-----------------------------------------------------------------------------|
+| **Microcontroller** | ATmega328PU                                                                  |
+| **Sensors**         | 14 Photodiodes/IR sensors for black/white detection                          |
+| **Motor Driver**    | L293D + MOSFET Driver for efficient motor control                            |
+| **Motors**          | 24mm DC Motors, 13,000 RPM                                                   |
+| **Display**         | 16x2 LCD                                                                     |
+| **Battery**         | 12V rechargeable battery                                                     |
+| **External Memory** | Dual 256Kbit EEPROM                                                          |
+| **Wireless Control** | Bluetooth module for manual wireless control                                |
 
-## Sneak Peek of Line Follower 🙈 :
-![home](https://github.com/karthirilla/LINE_Follower_ATMEGA328/blob/main/Screenshot%20(4).png)
+### Software Tools
+- **Arduino IDE**: Programming the ATmega328PU microcontroller
+- **CodeVision AVR**: Advanced AVR programming and debugging
+- **AVRDUDESS**: Flashing firmware onto the ATmega328 microcontroller
+- **DipTrace**: PCB design software for schematic and layout
+- **Proteus**: Circuit simulation for testing and validation
 
-<table>
-  <tr>
-    <td><img src="https://user-images.githubusercontent.com/64949957/159116105-15b9425c-1fec-4a52-84ba-cf97eef93891.png" alt="mockup" /></td>
-    <td><img src="https://user-images.githubusercontent.com/64949957/159116112-1c7dec3e-0f3a-45a8-83d3-6d6b9ee1d5de.png" alt="mockups" /></td>
-  </tr>
-  <tr>
-    <td><img src="https://user-images.githubusercontent.com/64949957/159116115-46f15626-372d-4349-8ef4-a04a70600dcc.png" alt="mockup" /></td>
-    <td><img src="https://user-images.githubusercontent.com/64949957/159116118-ac3d261b-eb50-4a7b-a8e6-cd1a0f5720de.png" alt="mockups" /></td>
-  </tr>
-</table>
+## Features Breakdown
 
-<h2>📬 Contact</h2>
+### Sensors
+- **14 Photodiodes/IR Sensors**: Provides high accuracy for detecting black and white lines, even in challenging lighting conditions.
 
-If you want to contact me, you can reach me through below handles.
+### Calibration
+- **Auto Calibration**: Automatically adjusts sensitivity based on track conditions to ensure consistent performance.
 
-[![linkedin](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/jigar-sable)
+### Memory Management
+- **Dual EEPROM**: Stores up to 31 track paths with features to copy, insert, mirror, delete, and manage memory tracks.
+- **Auto/Manual Mirror Mode**: Allows quick creation of mirrored paths.
 
-© 2022 Karthi C
+### Path Control
+- **PID Controller**: Ensures smooth and precise line-following by dynamically adjusting motor speed and direction.
+- **Advanced Path Planning**: Handles sharp turns, curves, and intersections efficiently.
 
+### Motor and Driver
+- **L293D Motor Driver**: Controls the high-speed DC motors with additional MOSFET-based driver for improved efficiency.
+- **Motors**: 24mm DC motors with a speed of 13,000 RPM, providing excellent maneuverability.
 
-[![forthebadge](https://forthebadge.com/images/badges/built-with-love.svg)](https://forthebadge.com)
+### Display and Wireless
+- **16x2 LCD**: Displays runtime parameters, settings, and calibration data.
+- **Bluetooth Control**: Allows wireless manual control using a mobile app or Bluetooth terminal.
+
+## Circuit Design and Simulation
+- **PCB Design**: Created using DipTrace for the ATmega328PU and L293D-based circuit.
+- **Simulation**: Simulated in Proteus to test the logic and hardware.
+
+## Getting Started
+
+### Prerequisites
+Before starting, make sure to install the following software:
+- **Arduino IDE**
+- **CodeVision AVR**
+- **AVRDUDESS**
+- **DipTrace**
+- **Proteus**
+
+### Hardware Setup
+Assemble the hardware components as per the provided PCB design.
+
+### Steps to Run
+1. **Clone the Repository**:
+    ```bash
+    git clone https://github.com/your-username/Line-Follower-ATmega328.git
+    ```
+2. **Upload Code**: 
+   - Upload the firmware to the ATmega328PU using Arduino IDE or CodeVision AVR.
+3. **Calibrate Sensors**:
+   - Use the auto-calibration feature to set up the robot for the specific track.
+4. **Run the Robot**:
+   - Place the robot on the track and let it follow the line autonomously.
+
+## Future Enhancements
+- Add **Obstacle Detection** using ultrasonic sensors.
+- Implement **Speed Optimization** algorithms for racing competitions.
+- Integrate **Wi-Fi Control** for enhanced remote monitoring and control.
+- Expand memory capabilities for more track storage.
+- Add **Voice Commands** using advanced Bluetooth modules.
+
+## License
+This project is licensed under the **MIT License**. See the LICENSE file for details.
+
+## Acknowledgments
+- Special thanks to the open-source community for the libraries and tools used in this project.
+- Inspired by academic projects and robotics competitions.
+
+## Contact
+For any inquiries, feel free to reach out:
+
+- Email: [karthikrilla@gmail.com](mailto:karthikrilla@gmail.com)
+- LinkedIn: [Karthi C](https://www.linkedin.com/in/karthic)
