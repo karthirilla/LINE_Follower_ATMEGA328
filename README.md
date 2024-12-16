@@ -4,6 +4,22 @@ The **Line Follower Robot with ATmega328** is a high-performance, feature-rich r
 
 Built around the ATmega328PU microcontroller, it integrates several cutting-edge features such as auto-calibration, path planning, and PID control. The system is powered by a 12V inbuilt rechargeable battery and offers an intuitive interface via a 16x2 LCD display for data monitoring and setting adjustments.
 
+# Line Follower ATmega328
+
+## Images
+
+| **Image 1**                                                               | **Image 2**                                                               |
+|----------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| ![Image 1](https://github.com/karthirilla/LINE_Follower_ATMEGA328/blob/main/LINE_FOLLOWER_AMTEGA328PU_1.jpg) | ![Image 2](https://github.com/karthirilla/LINE_Follower_ATMEGA328/blob/main/LINE_FOLLOWER_AMTEGA328PU_2.jpg) |
+
+| **Image 3**                                                               | **Image 4**                                                               |
+|----------------------------------------------------------------------------|----------------------------------------------------------------------------|
+| ![Image 3](https://github.com/karthirilla/LINE_Follower_ATMEGA328/blob/main/LINE_FOLLOWER_AMTEGA328PU_3.jpg) | ![Image 4](https://github.com/karthirilla/LINE_Follower_ATMEGA328/blob/main/LINE_FOLLOWER_AMTEGA328PU_4.jpg) |
+
+## Design
+![Design](https://github.com/karthirilla/LINE_Follower_ATMEGA328/blob/main/LINE_FOLLOWER_AMTEGA328PU_DESIGN.jpg)
+
+
 ## Features
 
 ### 1. Hardware
