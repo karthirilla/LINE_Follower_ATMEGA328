@@ -10,14 +10,14 @@ Built around the ATmega328PU microcontroller, it integrates several cutting-edge
 
 | **Image 1**                                                               | **Image 2**                                                               |
 |----------------------------------------------------------------------------|----------------------------------------------------------------------------|
-| ![Image 1](https://github.com/karthirilla/LINE_Follower_ATMEGA328/blob/main/LINE_FOLLOWER_AMTEGA328PU_1.jpg) | ![Image 2](https://github.com/karthirilla/LINE_Follower_ATMEGA328/blob/main/LINE_FOLLOWER_AMTEGA328PU_2.jpg) |
+| ![Image 1](https://github.com/karthirilla/LINE_Follower_ATMEGA328/blob/main/LINE_FOLLOWER_AMTEGA328PU_1.jpg) | ![Image 2](https://github.com/karthirilla/LINE_Follower_ATMEGA328/blob/main/LINE_FOLLOWER_AMTEGA328PU_2.png) |
 
 | **Image 3**                                                               | **Image 4**                                                               |
 |----------------------------------------------------------------------------|----------------------------------------------------------------------------|
 | ![Image 3](https://github.com/karthirilla/LINE_Follower_ATMEGA328/blob/main/LINE_FOLLOWER_AMTEGA328PU_3.jpg) | ![Image 4](https://github.com/karthirilla/LINE_Follower_ATMEGA328/blob/main/LINE_FOLLOWER_AMTEGA328PU_4.jpg) |
 
 ## Design
-![Design](https://github.com/karthirilla/LINE_Follower_ATMEGA328/blob/main/LINE_FOLLOWER_AMTEGA328PU_DESIGN.jpg)
+![Design](https://github.com/karthirilla/LINE_Follower_ATMEGA328/blob/main/LINE_FOLLOWER_AMTEGA328PU_DESIGN.png)
 
 
 ## Features
